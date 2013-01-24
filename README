@@ -1,8 +1,8 @@
 Muti-core communication kernel module and DSP program
-======================
+=======================
 
 This is a project base on dm3730 device, communicate between ARM and DSP by shared memory.
 
-1. Insert hst_sample_init() in main()
-2. Insert sample_handle_init() in init_task()
-3. Increase the RESERVED_HEAP_SIZE in shm_init()
+1. insert hst_sample_init() in main()
+2. insert sample_handle_init() in init_task()
+3. increase the RESERVED_HEAP_SIZE in shm_init()
